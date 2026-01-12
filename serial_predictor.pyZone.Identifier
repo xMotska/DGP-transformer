@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://claude.ai/chat/609af184-31fd-4924-be4d-088477dff9a7
+HostUrl=https://claude.ai/api/organizations/341f0f2b-e5de-405f-ac11-29280cd7816c/conversations/609af184-31fd-4924-be4d-088477dff9a7/wiggle/download-file?path=%2Fmnt%2Fuser-data%2Foutputs%2Fserial_predictor.py
