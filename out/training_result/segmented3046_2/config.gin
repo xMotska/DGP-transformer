@@ -1,0 +1,115 @@
+# Parameters for Adam:
+# ==============================================================================
+Adam.b1 = 0.9
+Adam.b2 = 0.999
+Adam.clip_grad_norm = None
+Adam.eps = 1e-05
+Adam.learning_rate = 0.0001
+Adam.weight_decay_rate = 1e-05
+
+# Parameters for backend:
+# ==============================================================================
+backend.name = 'jax'
+
+# Parameters for serializers.BoxSpaceSerializer:
+# ==============================================================================
+serializers.BoxSpaceSerializer.max_range = (-100.0, 100.0)
+serializers.BoxSpaceSerializer.quantile_fit_n_points = 1048576
+
+# Parameters for code.distributions.Categorical:
+# ==============================================================================
+# None.
+
+# Parameters for CreateInputs:
+# ==============================================================================
+CreateInputs.shuffle = False
+
+# Parameters for DataCollection:
+# ==============================================================================
+# None.
+
+# Parameters for Dataset:
+# ==============================================================================
+Dataset.eval_series = None
+Dataset.train_series = None
+
+# Parameters for debug_pipeline:
+# ==============================================================================
+debug_pipeline.debug = False
+debug_pipeline.log_prefix = None
+debug_pipeline.method = 'pow'
+
+# Parameters for DotProductCausalAttention:
+# ==============================================================================
+# None.
+
+# Parameters for EvalTask:
+# ==============================================================================
+EvalTask.export_prefix = None
+EvalTask.sample_batch = None
+
+# Parameters for FastGelu:
+# ==============================================================================
+# None.
+
+# Parameters for LayerNorm:
+# ==============================================================================
+LayerNorm.center = True
+LayerNorm.epsilon = 1e-06
+
+# Parameters for multifactor:
+# ==============================================================================
+multifactor.constant = 0.1
+multifactor.decay_factor = 0.5
+multifactor.factors = 'constant * linear_warmup * rsqrt_decay'
+multifactor.minimum = 0
+multifactor.second_constant = 0.01
+multifactor.second_constant_step = 10000
+multifactor.steps_per_cycle = 100000
+multifactor.steps_per_decay = 20000
+multifactor.warmup_steps = 400
+
+# Parameters for trainer.num_devices:
+# ==============================================================================
+trainer.num_devices.value = None
+
+# Parameters for SaveCheckpointCallback:
+# ==============================================================================
+SaveCheckpointCallback.filename = None
+SaveCheckpointCallback.log_every = 500
+
+# Parameters for SerialPredictor:
+# ==============================================================================
+SerialPredictor.clip_or_squash = 'clip'
+SerialPredictor.decoder_fn = None
+SerialPredictor.first_digit_mode = 'uniform'
+SerialPredictor.input_vocab_sizes = None
+SerialPredictor.label_smoothing = None
+
+# Parameters for trainer.train:
+# ==============================================================================
+trainer.train.extra_callbacks = []
+
+# Parameters for TrainTask:
+# ==============================================================================
+TrainTask.export_prefix = None
+TrainTask.loss_name = None
+TrainTask.sample_batch = None
+
+# Parameters for TransformerBody:
+# ==============================================================================
+TransformerBody.conv_activation = None
+TransformerBody.conv_attention_kernel_width = None
+TransformerBody.conv_kernel = 1
+TransformerBody.digit_encoding = False
+TransformerBody.expand_heads = False
+TransformerBody.fraction_to_rotate = 0.25
+
+# Parameters for WeightedCategoryAccuracy:
+# ==============================================================================
+# None.
+
+# Parameters for WeightedCategoryCrossEntropy:
+# ==============================================================================
+WeightedCategoryCrossEntropy.cutoff = 0.0
+WeightedCategoryCrossEntropy.label_smoothing = None
