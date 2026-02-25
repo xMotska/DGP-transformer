@@ -1,0 +1,1 @@
+Github repo for the Bachelor's Thesis "Statistical Characterisation of Transformers using Deep Gaussian Processes" completed for Goethe University Frankfurt. The "code" folder is from https://github.com/ts-gt/tsgt
